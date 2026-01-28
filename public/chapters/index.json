@@ -1,0 +1,65 @@
+{
+  "total_chapters": 10,
+  "chapters": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "ПРОБУЖДЕНИЕ",
+      "word_count": 1667
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "ПЕРВЫЙ КАПИТАЛ",
+      "word_count": 1084
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "title": "ДОМАШНИЙ УЖИН",
+      "word_count": 1017
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "title": "ПЕРВАЯ СДЕЛКА",
+      "word_count": 440
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "title": "СЛУЧАЙНАЯ ПРИБЫЛЬ",
+      "word_count": 722
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "title": "ИНСТАГРАМ",
+      "word_count": 442
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "title": "FACEBOOK IPO",
+      "word_count": 478
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "title": "КРАХ",
+      "word_count": 473
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "title": "ВОЗРОЖДЕНИЕ",
+      "word_count": 519
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "title": "НАЧАЛО ИМПЕРИИ",
+      "word_count": 656
+    }
+  ]
+}
