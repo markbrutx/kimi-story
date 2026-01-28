@@ -1,54 +1,12 @@
-# 📖 Novel Reader
+# Novel Reader
 
-Лёгкая читалка для веб-новелл на Astro + Bun. Оптимизирована для мобильных устройств.
+> **Note:** This repo was created to test **Kimi Agents**. The novel "Time Traveler" was written by Kimi, and this reader was built with **Kimi Code**.
+>
+> Also wanted to test **Bun + Astro** stack.
 
-## 🚀 Старт
+A minimal dark-themed novel reader built with Astro and Bun.
 
 ```bash
-# Установка
 bun install
-
-# Dev сервер
 bun run dev
-
-# Билд
-bun run build
 ```
-
-## 📁 Структура
-
-```
-├── src/
-│   ├── components/
-│   │   ├── Layout.astro    # Базовый layout
-│   │   └── Reader.astro    # Компонент читалки
-│   └── pages/
-│       └── index.astro     # Главная страница
-├── public/chapters/        # JSON главы
-├── workbench/              # Вспомогательные файлы
-│   ├── split_chapters.py   # Скрипт разбивки
-│   └── time_traveler_novel.txt
-└── .github/workflows/      # GitHub Actions
-```
-
-## 🔄 Добавить новеллу
-
-```bash
-cd workbench
-# Положить novel.txt
-python3 split_chapters.py
-cd ..
-bun run build
-```
-
-## 📤 Деплой
-
-GitHub Actions автоматически деплоит при пуше в `main`.
-
-## ⚡ Фичи
-
-- Swipe навигация
-- Progress bar
-- Slide-over оглавление
-- Keyboard navigation
-- Shareable URLs (`?chapter=5`)
